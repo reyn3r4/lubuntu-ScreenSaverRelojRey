@@ -1,0 +1,5 @@
+/home/rey/Downloads/ScreenSaverRelojRey/build/CMakeFiles/reloj-rey.dir
+/home/rey/Downloads/ScreenSaverRelojRey/build/CMakeFiles/edit_cache.dir
+/home/rey/Downloads/ScreenSaverRelojRey/build/CMakeFiles/rebuild_cache.dir
+/home/rey/Downloads/ScreenSaverRelojRey/build/CMakeFiles/reloj-rey_autogen_timestamp_deps.dir
+/home/rey/Downloads/ScreenSaverRelojRey/build/CMakeFiles/reloj-rey_autogen.dir

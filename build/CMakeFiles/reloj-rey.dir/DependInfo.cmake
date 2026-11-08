@@ -1,0 +1,26 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "reloj-rey_autogen/timestamp" "custom" "reloj-rey_autogen/deps"
+  "/home/rey/Downloads/ScreenSaverRelojRey/build/reloj-rey_autogen/mocs_compilation.cpp" "CMakeFiles/reloj-rey.dir/reloj-rey_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/reloj-rey.dir/reloj-rey_autogen/mocs_compilation.cpp.o.d"
+  "/home/rey/Downloads/ScreenSaverRelojRey/src/clockwidget.cpp" "CMakeFiles/reloj-rey.dir/src/clockwidget.cpp.o" "gcc" "CMakeFiles/reloj-rey.dir/src/clockwidget.cpp.o.d"
+  "/home/rey/Downloads/ScreenSaverRelojRey/src/main.cpp" "CMakeFiles/reloj-rey.dir/src/main.cpp.o" "gcc" "CMakeFiles/reloj-rey.dir/src/main.cpp.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

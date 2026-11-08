@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<screensaver name="reloj-rey" _label="Reloj Rey">
+  <command arg="--root"/>
+
+  <hgroup>
+    <vgroup>
+      <select id="time-format">
+        <option id="24hour" _label="Formato de 24 horas (predeterminado)"/>
+        <option id="12hour" _label="Formato de 12 horas" arg-set="--12-hour"/>
+      </select>
+      <boolean id="seconds" _label="Mostrar segundos en hora digital y segundero"
+               arg-unset="--no-seconds"/>
+    </vgroup>
+    <vgroup>
+      <number id="opacity" type="slider" arg="--face-opacity %"
+              _label="Opacidad de la esfera"
+              low="0" high="100" default="55"/>
+    </vgroup>
+  </hgroup>
+
+  <select id="accent">
+    <option id="red" _label="Rojo (predeterminado)" arg-set="--accent #dc2626"/>
+    <option id="blue" _label="Azul" arg-set="--accent #38bdf8"/>
+    <option id="green" _label="Verde" arg-set="--accent #34d399"/>
+    <option id="amber" _label="Ambar" arg-set="--accent #fbbf24"/>
+    <option id="white" _label="Blanco" arg-set="--accent #ffffff"/>
+  </select>
+
+  <select id="text">
+    <option id="soft-white" _label="Blanco suave (predeterminado)" arg-set="--text #e2e8f0"/>
+    <option id="white" _label="Blanco" arg-set="--text #ffffff"/>
+    <option id="cyan" _label="Cian" arg-set="--text #67e8f9"/>
+    <option id="amber" _label="Ambar" arg-set="--text #fcd34d"/>
+  </select>
+
+  <select id="face">
+    <option id="burgundy" _label="Vino oscuro (predeterminado)"
+            arg-set="--face #280505"/>
+    <option id="navy" _label="Azul marino" arg-set="--face #071d38"/>
+    <option id="charcoal" _label="Carbon" arg-set="--face #141414"/>
+    <option id="forest" _label="Verde bosque" arg-set="--face #071f18"/>
+  </select>
+
+  <_description>
+Un reloj analogico semitransparente con la fecha dentro de la mitad superior
+y la hora digital debajo del centro. Usa el idioma espanol para la fecha.
+  </_description>
+</screensaver>
